@@ -34,8 +34,9 @@ public class CassandraConnection {
 	}
 	
 	public String getProductDetails() {
-		String productDetails = "/home/cloudera/Desktop/SPARK_POC/Cassandra_Data/product_details.txt";
-		Session session = getCassandraSession();
+		// String productDetails = "/home/cloudera/Desktop/SPARK_POC/Cassandra_Data/product_details.txt";
+		String productDetails = "/root/spark/product_details.txt";
+root/spark();
 		String cqlStatement = "SELECT * FROM product_details";
 	    StringBuffer produtDetailsSB = new StringBuffer();
 	    int count = 0;
@@ -58,7 +59,9 @@ public class CassandraConnection {
 	}
 	
 	public String getReviewTransactions() {
-		String reviewTransactions = "/home/cloudera/Desktop/SPARK_POC/Cassandra_Data/review_transactions.txt";
+		// String reviewTransactions = "/home/cloudera/Desktop/SPARK_POC/Cassandra_Data/review_transactions.txt";
+		String reviewTransactions = "/root/spark/review_transactions.txt";
+
 		Session session = getCassandraSession();
 		String cqlStatement = "SELECT * FROM review_transactions";
 	    StringBuffer reviewTransactionsSB = new StringBuffer();
