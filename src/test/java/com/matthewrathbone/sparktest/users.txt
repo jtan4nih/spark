@@ -1,0 +1,10 @@
+1400532620	Electronics	30000	Television
+140053271X	Electronics	20000	Radio
+0594451647	Electronics	78000	AC
+1400501466	Electronics	15000	Cooler
+0972683275	Electronics	25000	Washing Machine
+1400501520	Electronics	5550	Cooker
+1400532655	Electronics	78000	Home Theatre
+1400501776	Electronics	45000	Micro Oven
+0594481813	Electronics	7100	Fan
+0528881469	Electronics	14000	Play station
